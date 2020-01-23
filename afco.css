@@ -6,17 +6,14 @@
 
 body { 
   /*background: url("assets/afco.png") repeat center;*/
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.5;
-  color: #444349;
+
   width: calc(100vw-10px);
   height: 925px;
 
 }
 
 header {
-  height: 14%;
+  height: 15%;
   width: 100%;
   position: relative;
   min-width: 350px;
@@ -49,9 +46,15 @@ header {
 .antet-wrapper {
   height:100%;
   width: 100%;
+  font-family: "Libre Baskerville", Arial;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: black;
   margin: 0 auto;
+  display: block;
   background-color: hsla(160,50%,80%,0.2);
   text-align: center;
+  padding-top: 0.2rem;
 }
 
 @media (min-width: 768px) {
@@ -60,43 +63,92 @@ header {
   }
 }
 
-div.antet-wrapper p {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2;
-  color: black;
-  padding-top: 0.4rem;
+.asoc {
+  font-family: "Merienda", Arial;
+}
+
+.fii-com, .obil {
+  font-family: "Libre Baskerville",Arial;
 }
 
 .coverx {
   width: 100%;
   height: 81%;
   margin: 5px 0 0 0;
-  display: flex;
+  display: bloc;
+}
+
+.div-motto {
+  width: 99%;
+  height: 7%;
+  margin: 5px;
+  border-style: solid;
+  border-width: 0.12rem;
+  border-color: black;
+  border-radius: 0.5rem;
+  padding-right: 0.2rem;
+  text-align: right;
+
+}
+
+.div-motto h5 {
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+.div-motto p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.men-art {
+  width: 100%;
+  height: 92%;
+  display:flex;
 }
 
 .meniu {
   width: 20%;
   height: 50%;
   float: left;
-  margin: 10px;
+  margin: 5px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.12rem;
   border-color: black;
   border-radius: 10px;
   background-color: aliceblue;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 3.5;
 }
 
-.articol {
+a {
+    text-decoration: none;
+}
+
+.div-articol {
   width: 80%;
   height: calc(100%-5px);
   float: left;
-  background: url("assets/afco.png") repeat center/cover;
-  margin: 10px;
+  background: url("assets/monument.jpg") no-repeat 47.5% center/cover;
+  background-color: hsla(100,50%,80%,0.2);
+  object-fit: scale-down;
+  margin: 5px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.12rem;
   border-color: black;
   border-radius: 10px;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  display: bloc;
 }
+
+/*.articol {
+  width: 100%;
+  height: 100%;
+
+}*/
+
 
 footer {
   width: 100%;
@@ -123,13 +175,14 @@ footer p {
 }
 
 .articol h1 {
-  padding: 2rem; 
+  font-family: "Playfair Display",Arial;
+  padding: 1rem; 
   text-decoration: underline;
   text-align: center;
 }
 
 .articol p {
-    font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /*
