@@ -79,9 +79,9 @@ header {
 }
 
 .div-motto {
-  width: 99%;
+  width: 99.3%;
   height: 7%;
-  margin: 5px;
+  margin: 0.25rem;
   border-style: solid;
   border-width: 0.12rem;
   border-color: black;
@@ -140,6 +140,7 @@ a {
   border-radius: 10px;
   font-size: 1.8rem;
   line-height: 1.8;
+  color: #fff;
   display: bloc;
 }
 
