@@ -79,20 +79,20 @@ header {
 }
 
 .div-motto {
-  width: 99.3%;
+  width: 98.8%;
   height: 7%;
-  margin: 0.25rem;
+  margin: 0.25rem auto;
   border-style: solid;
   border-width: 0.12rem;
   border-color: black;
   border-radius: 0.5rem;
-  padding-right: 0.2rem;
+  padding-right: 0.5rem;
   text-align: right;
 
 }
 
 .div-motto h5 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.9;
 }
 
@@ -106,16 +106,16 @@ header {
   height: 92%;
   display:flex;
 }
-
-.meniu {
+/* ==================================== */
+nav{
   width: 20%;
-  height: 50%;
+  height: calc(100%-5px);
   float: left;
   margin: 5px;
   border-style: solid;
   border-width: 0.12rem;
   border-color: black;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   background-color: aliceblue;
   padding-top: 0.5rem;
   font-size: 1rem;
@@ -123,21 +123,21 @@ header {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
+/*==========================================*/
 .div-articol {
   width: 80%;
   height: calc(100%-5px);
   float: left;
-  background: url("assets/monument.jpg") no-repeat 47.5% center/cover;
+  background: url("assets/monument.jpg") no-repeat 46.6% center/cover;
   background-color: hsla(100,50%,80%,0.2);
   object-fit: scale-down;
   margin: 5px;
   border-style: solid;
   border-width: 0.12rem;
   border-color: black;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   font-size: 1.8rem;
   line-height: 1.8;
   padding-top: 3.3rem;
@@ -202,6 +202,10 @@ footer p {
     
   }
 }
+
+/*==== Reguli stil pt butoane ====*/
+
+
 */
 
 /*
