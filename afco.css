@@ -118,6 +118,7 @@ a {
   font-size: 1rem;
   line-height: 1.3;
   color:azure;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 
@@ -130,7 +131,6 @@ a {
 .foreword {
   width: 100%;
   margin: auto;
-  font-family: 'Cormorant Garamond', serif;
 }
 
 .motto-wrapper {
